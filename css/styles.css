@@ -3,3 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/fondo1.jpg);
+  background-repeat: no-repeat;
+}
+.Logo-banda {
+  padding: 20px;
+  width: 150px;
+  filter: contrast(1%);
+}
+main section {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+main video {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+footer{
+  margin: 0;
+  padding: 20px;
+  background-color:black;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+footer li{
+  padding: 10px;
+}
+footer img{
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+}
+footer h3,h6{
+  text-align: center;
+}
+footer h6{
+  padding-top: 20px;
+}
+
