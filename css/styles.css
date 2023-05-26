@@ -5,16 +5,19 @@
 }
 header {
   margin: 0;
-  padding: 0;
+  padding: 5px;
+
   background-image: url(../assets/fondo1.jpg);
-  background-repeat: no-repeat;
 }
 .Logo-banda {
   padding: 20px;
   width: 150px;
-  filter: contrast(1%);
+  filter: contrast(10%);
 }
 main section {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   background-color: black;
@@ -22,32 +25,32 @@ main section {
 main video {
   display: flex;
   justify-content: center;
-  width: 300px;
+  width: 90vw;
 }
-footer{
+footer {
   margin: 0;
   padding: 20px;
-  background-color:black;
+  background-color: black;
 }
-footer ul{
+footer ul {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
-footer li{
+footer li {
   padding: 10px;
 }
-footer img{
+footer img {
   display: flex;
   flex-direction: row;
   width: 30px;
 }
-footer h3,h6{
+footer h3,
+h6 {
   text-align: center;
 }
-footer h6{
-  padding-top: 20px;
+footer h6 {
+  padding-top: 50px;
 }
-
