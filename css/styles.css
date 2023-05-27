@@ -9,10 +9,24 @@ header {
 
   background-image: url(../assets/fondo1.jpg);
 }
+header h2 {
+  color: red;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 .Logo-banda {
   padding: 20px;
   width: 150px;
   filter: contrast(10%);
+}
+main h1 {
+  margin: 0;
+  padding-top: 10px;
+  background-color: black;
+  color: blueviolet;
+  text-align: center;
+  font-size: 2em;
 }
 main section {
   margin: 0;
@@ -53,4 +67,43 @@ h6 {
 }
 footer h6 {
   padding-top: 50px;
+}
+#nosotros {
+  margin: 0;
+  background-color: black;
+  color: blueviolet;
+  text-align: center;
+}
+.grid-container {
+  background-color: black;
+  color: grey;
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: center;
+}
+p {
+  margin: 0;
+  padding: 10px;
+}
+#Empresas {
+  background-color: black;
+  color: darkslateblue;
+  justify-content: center;
+  padding: 10px;
+}
+@media screen and (min-width: 600px) {
+  .grid-container {
+    padding: 50px;
+    grid-template-areas: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    padding: 10px;
+    grid-template-areas: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
 }
