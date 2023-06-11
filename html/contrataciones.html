@@ -49,10 +49,10 @@
                 <a class="nav-link" href="../html/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/galeria.html">Galeria</a>
+                <a class="nav-link" href="../html/historia.html">Historia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/Musica.html">Musica</a>
+                <a class="nav-link" href="../html/galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../html/contrataciones.html"
@@ -64,6 +64,57 @@
         </div>
       </nav>
     </header>
+    <h1>Pedi tu presupuesto!</h1>
+    <h2 class="consulta">Dejanos tu consulta y nosotros de llamamos</h2>
+    <section class="contrataciones">
+      <section class="contacto">
+        <form action="procesar.php" method="post">
+          <label for="nombre">Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Correo electrónico:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="telefono">Teléfono:</label><br />
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            required
+          /><br /><br />
+
+          <label for="consulta">Consulta:</label><br />
+          <textarea id="consulta" name="consulta" rows="4" required></textarea
+          ><br /><br />
+
+          <input class="enviar" type="submit" value="Enviar" />
+        </form>
+      </section>
+      <section class="telefono">
+        <h3>Contacto</h3>
+        <ul>
+          <li>
+            Telefono: <br />
+            <a href="11-3589458">11-3589458</a>
+          </li>
+          <li>
+            Whatsapp: <br />
+            <a href="https://wa.me/1165472259">11-65472259</a>
+          </li>
+          <li>
+            Correo electronico: <br />
+            <a href="mailto:cosasrarasbanda@gmail.com"
+              >cosasrarasbanda@gmail.com</a
+            >
+          </li>
+        </ul>
+        <p id="Empresas">
+          Algunas de las Empresas que confiaron en nosotros: Atucha, Ferrero, YPF,
+          Sancor seguros, Hoteles: Sofitel, Hilton, Sheraton, Municipios de Zarate,
+          Campana, Exaltación de la Cruz, Pilar, etc.
+        </p>
+      </section>
+    </section>
     <footer class="Container">
       <div class="Redes">
         <h3>Seguinos:</h3>
