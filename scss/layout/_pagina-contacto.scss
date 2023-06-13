@@ -1,0 +1,49 @@
+@import "../utilities/variables";
+.contacto {
+  background-color: $bg-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .consulta {
+    text-align: center;
+  }
+  textarea {
+    width: 200px;
+  }
+  .enviar {
+    margin-left: 135px;
+  }
+  .enviar:hover {
+    background-color: rgb(51, 51, 83);
+  }
+}
+.consulta {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: $bg-color;
+}
+.telefono {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e3f97f;
+  background-color: $bg-color;
+  h3 {
+    text-align: center;
+  }
+  ul {
+    li {
+      justify-content: center;
+    }
+    list-style-type: none;
+  }
+}
+#Empresas {
+  margin: 0;
+  background-color: $bg-color;
+  color: $color;
+  justify-content: center;
+  padding: 10px;
+}

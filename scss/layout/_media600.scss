@@ -1,0 +1,26 @@
+@media screen and (min-width: 600px) {
+  .inicio {
+    display: flex;
+  }
+  .parrafo {
+    font-size: 1.2rem;
+    padding: 5%;
+  }
+
+  .video-inicio {
+    max-width: 80%;
+  }
+  .grid-container {
+    padding: 50px;
+    grid-template-areas: inherit;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    img {
+      padding: 15px;
+      width: 80%;
+    }
+  }
+}

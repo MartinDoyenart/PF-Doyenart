@@ -1,0 +1,41 @@
+@import "../utilities/variables";
+footer {
+  div {
+    h3 {
+      margin: 0;
+      padding: 0;
+      background-color: $bg-color;
+      text-align: center;
+    }
+    nav {
+      margin: 0;
+      padding: 20px;
+      background-color: $bg-color;
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+      }
+      img {
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 60px;
+        transition: 0.5s;
+      }
+      img:hover {
+        rotate: 360deg;
+        width: 80px;
+      }
+    }
+  }
+  h6 {
+    margin: 0;
+    background-color: $bg-color;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "../utilities/variables";
+.grid-container {
+  background-color: $bg-color;
+  color: grey;
+  display: grid;
+  justify-content: center;
+  text-align: justify;
+  p {
+    padding: 30px;
+  }
+  .grid-item {
+    padding: 5px;
+    img {
+      padding: 30px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+section {
+    div {
+      p {
+        margin: 0;
+        padding: 20px;
+      }
+    }
+  }

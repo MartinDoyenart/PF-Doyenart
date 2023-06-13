@@ -1,0 +1,34 @@
+@import "../utilities/variables";
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  background-color: $bg-color;
+  color: $color;
+  text-align: center;
+  font-size: 3em;
+}
+.inicio {
+  background-color: $bg-color;
+  .video-inicio {
+    display: flex;
+    justify-content: center;
+    background-color: $bg-color;
+    padding: 5%;
+    video {
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+.parrafo {
+  .parrafo-inicio {
+    font-weight: 700;
+    text-align: justify;
+    background-color: $bg-color;
+    color: white;
+    padding: 15px;
+    transition: 2s;
+  }
+}

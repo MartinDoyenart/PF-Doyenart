@@ -1,0 +1,21 @@
+@import "../utilities/variables";
+.nosotros {
+  background-color: $bg-color;
+  padding: 10px;
+  .parrafo-nosotros {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e3f97f;
+    .Nombre {
+      color: rgb(198, 14, 14);
+    }
+  }
+}
+
+#nosotros {
+  margin: 0;
+  background-color: $bg-color;
+  color: $color;
+  text-align: center;
+}
