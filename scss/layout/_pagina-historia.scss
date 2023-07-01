@@ -5,23 +5,22 @@
   display: grid;
   justify-content: center;
   text-align: justify;
-  p {
+  .parrafo {
     padding: 30px;
   }
   .grid-item {
     padding: 5px;
     img {
-      padding: 30px;
+      @extend .parrafo;
       height: auto;
       max-width: 100%;
     }
   }
 }
 section {
-    div {
-      p {
-        margin: 0;
-        padding: 20px;
-      }
+  div {
+    p {
+      @include margin-padding;
     }
   }
+}

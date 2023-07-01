@@ -1,0 +1,10 @@
+@mixin reset-styles {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin margin-padding {
+  margin: 0;
+  padding: 20px;
+}

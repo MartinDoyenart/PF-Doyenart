@@ -18,8 +18,7 @@
   }
 }
 .consulta {
-  margin: 0;
-  padding: 20px;
+  @include margin-padding;
   text-align: center;
   background-color: $bg-color;
 }
